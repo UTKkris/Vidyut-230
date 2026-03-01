@@ -5,18 +5,18 @@ Real-time API for Intent-Aware Anomaly Detection in smart grid telemetry.
 ## Setup
 
 1. Install dependencies:
-
 pip install -r requirements.txt
-Generate baseline grid data:
+
+2. Generate baseline grid data:
 python data_generator.py
 
-Train the XGBoost model:
+3. Train the XGBoost model:
 python train_model.py
 
-Start the inference API:
+4. Start the inference API:
 python inference_api.py
 
-Testing
+5. Testing
 Send a simulated meter reading to the API.
 
 curl -X 'POST' \
