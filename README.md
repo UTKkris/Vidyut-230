@@ -19,6 +19,7 @@ python inference_api.py
 5. Testing
 Send a simulated meter reading to the API.
 
+```bash
 curl -X 'POST' \
   'http://localhost:8000/api/v1/ingest' \
   -H 'Content-Type: application/json' \
